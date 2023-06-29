@@ -1,0 +1,59 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color:whitesmoke;
+    margin: 0;
+    padding: 20px;
+  }
+  
+  #content, #word-list-box {
+    max-width: 300px;
+    min-height: 300px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+    background-color: white;
+    padding:25px; 
+    border-radius: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15);
+  }
+  
+  h1 {
+    font-size: 25px;
+    margin-bottom: 20px;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  textarea {
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #ccc; 
+    border-radius: 5px;
+    outline: none; 
+    resize: vertical; 
+    margin-bottom: 15px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #f0322bdc;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  #word-list{
+    min-height:200px;
+  }
+ 
+  button:hover {
+    background-color: #d22c26dc;
+  }
+
+
+  
+  
